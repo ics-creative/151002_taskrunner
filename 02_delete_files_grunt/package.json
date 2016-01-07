@@ -1,0 +1,21 @@
+{
+  "name": "02_delete_files_grunt",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grunt",
+    "delete"
+  ],
+  "author": "Nozomi Nohara <nozomi.nohara@ics-web.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "^0.7.0"
+  }
+}
