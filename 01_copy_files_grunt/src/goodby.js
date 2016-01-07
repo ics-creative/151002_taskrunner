@@ -1,1 +1,1 @@
-i'm goodby.js
+console.log( "i'm goodby.js" );
