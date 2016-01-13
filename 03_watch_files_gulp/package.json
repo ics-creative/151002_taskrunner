@@ -6,10 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "gulp",
-    "watch"
-  ],
   "author": "Nozomi Nohara <nozomi.nohara@ics-web.jp>",
   "license": "MIT",
   "devDependencies": {

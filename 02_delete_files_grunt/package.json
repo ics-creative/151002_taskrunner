@@ -6,16 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "grunt",
-    "delete"
-  ],
   "author": "Nozomi Nohara <nozomi.nohara@ics-web.jp>",
   "license": "MIT",
-  "dependencies": {
-    "grunt": "^0.4.5"
-  },
   "devDependencies": {
+    "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.7.0"
   }
 }
