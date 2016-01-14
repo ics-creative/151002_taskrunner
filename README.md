@@ -5,8 +5,8 @@ ICS MEDIA記事「[最低限抑えておきたいタスクランナーの書き�
 ## 目次
 
 - [ファイルのコピー（記事）](https://ics.media/entry/9199#task-copy)
-    - [Grunt - 01_copyfiles_grunt](01_copyfiles_grunt)
-    - [Gulp - 01_copyfiles_gulp](01_copyfiles_gulp)
+    - [Grunt - 01_copyfiles_grunt](01_copy_files_grunt)
+    - [Gulp - 01_copyfiles_gulp](01_copy_files_gulp)
 
 - [ファイルの削除（記事）](https://ics.media/entry/9199#task-delete)
     - [Grunt - 02_delete_files_grunt](02_delete_files_grunt)
