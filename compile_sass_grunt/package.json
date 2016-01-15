@@ -1,0 +1,14 @@
+{
+  "name": "compile_sass_grunt",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nozomi Nohara <nozomi.nohara@ics-web.jp>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-sass": "^0.9.2"
+  }
+}

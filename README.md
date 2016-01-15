@@ -5,32 +5,32 @@ ICS MEDIA記事「[最低限抑えておきたいタスクランナーの書き�
 ## 目次
 
 - [ファイルのコピー（記事）](https://ics.media/entry/9199#task-copy)
-    - [Grunt - 01_copy_files_grunt](01_copy_files_grunt)
-    - [Gulp - 01_copy_files_gulp](01_copy_files_gulp)
+    - [Grunt - copy_files_grunt](copy_files_grunt)
+    - [Gulp - copy_files_gulp](copy_files_gulp)
 
 - [ファイルの削除（記事）](https://ics.media/entry/9199#task-delete)
-    - [Grunt - 02_delete_files_grunt](02_delete_files_grunt)
-    - [Gulp - 02_delete_files_gulp](02_delete_files_gulp)
+    - [Grunt - delete_files_grunt](delete_files_grunt)
+    - [Gulp - delete_files_gulp](delete_files_gulp)
 
 - [ファイルの監視（記事）](https://ics.media/entry/9199#task-watch)
-    - [Grunt - 03_watch_files_grunt](03_watch_files_grunt)
-    - [Gulp - 03_watch_files_gulp](03_watch_files_gulp)
+    - [Grunt - watch_files_grunt](watch_files_grunt)
+    - [Gulp - watch_files_gulp](watch_files_gulp)
 
 - [画像ファイルの最適化（記事）](https://ics.media/entry/9199#task-imagemin)
-    - [Grunt - 04_min_images_grunt](04_min_images_grunt)
-    - [Gulp - 04_min_images_gulp](04_min_images_gulp)
+    - [Grunt - min_images_grunt](min_images_grunt)
+    - [Gulp - min_images_gulp](min_images_gulp)
 
 - [JavaScriptファイルのminify（記事）](https://ics.media/entry/9199#task-minify)
-    - [Grunt - 05_min_javascript_grunt](05_min_javascript_grunt)
-    - [Gulp - 05_min_javascript_gulp](05_min_javascript_gulp)
+    - [Grunt - min_javascript_grunt](min_javascript_grunt)
+    - [Gulp - min_javascript_gulp](min_javascript_gulp)
 
 - [TypeScriptファイルのコンパイル（記事）](https://ics.media/entry/9199#task-typescript)
-    - [Grunt - 06_compile_typescript_grunt](06_compile_typescript_grunt)
-    - [Gulp - 06_compile_typescript_gulp](06_compile_typescript_gulp)
+    - [Grunt - compile_typescript_grunt](compile_typescript_grunt)
+    - [Gulp - compile_typescript_gulp](compile_typescript_gulp)
 
 - [Sassのコンパイル（記事）](https://ics.media/entry/9199#task-sass)
-    - [Grunt - 07_compile_sass_grunt](07_compile_sass_grunt)
-    - [Gulp - 07_compile_sass_gulp](07_compile_sass_gulp)
+    - [Grunt - compile_sass_grunt](compile_sass_grunt)
+    - [Gulp - compile_sass_gulp](compile_sass_gulp)
 
 ## コードの試し方
 
@@ -38,7 +38,7 @@ ICS MEDIA記事「[最低限抑えておきたいタスクランナーの書き�
 > git clone https://github.com/ics-creative/160107_taskrunner.git
 
 2. それぞれ試したいディレクトリへ移動します。
-> cd 160107_taskrunner/01_copyfiles_grunt
+> cd 1601taskrunner/copy_files_grunt
 
 3. モジュールのインストールを行います。
 package.jsonに個別に必要なモジュールの設定を保存済みのため、```npm install```コマンドを実行することで必要なモジュールが全てインストールされます。
