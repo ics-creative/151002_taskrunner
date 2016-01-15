@@ -12,10 +12,8 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks("grunt-contrib-watch");
   
-  grunt.registerTask("filechanged", "default task", function (){
+  grunt.registerTask("filechanged", function (){
       console.log("file changed");
   });
-  grunt.registerTask("default", "default task", function (){
-      grunt.task.run("watch");
-  });
+  grunt.registerTask("default", ["watch"]);
 };
