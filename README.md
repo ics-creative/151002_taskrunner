@@ -11,6 +11,14 @@ ICS MEDIA記事「[最低限抑えておきたいタスクランナーの書き�
 - [ファイルの削除（記事）](https://ics.media/entry/9199#task-delete)
     - [Grunt - delete_files_grunt](delete_files_grunt)
     - [Gulp - delete_files_gulp](delete_files_gulp)
+    
+- [ファイルの移動（記事）](https://ics.media/entry/9199#task-move)
+    - [Grunt - move_files_grunt](move_files_grunt)
+    - [Gulp - move_files_gulp](move_files_gulp)
+
+- [ファイルの結合（記事）](https://ics.media/entry/9199#task-concat)
+    - [Grunt - concat_files_grunt](concat_files_grunt)
+    - [Gulp - concat_files_gulp](concat_files_gulp)
 
 - [ファイルの監視（記事）](https://ics.media/entry/9199#task-watch)
     - [Grunt - watch_files_grunt](watch_files_grunt)
@@ -35,7 +43,7 @@ ICS MEDIA記事「[最低限抑えておきたいタスクランナーの書き�
 ## コードの試し方
 
 1. Gitリポジトリをcloneします。
-> git clone https://github.com/ics-creative/160107_taskrunner.git
+> git clone https://github.com/ics-creative/151002_taskrunner.git
 
 2. それぞれ試したいディレクトリへ移動します。
 > cd 1601taskrunner/copy_files_grunt
