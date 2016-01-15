@@ -11,7 +11,5 @@ module.exports = function(grunt) {
   });
   grunt.loadNpmTasks("grunt-contrib-copy");
     
-  grunt.registerTask("default", "default task", function (){
-    grunt.task.run("copy");
-  });
+  grunt.registerTask("default",  ["copy"]);
 };
