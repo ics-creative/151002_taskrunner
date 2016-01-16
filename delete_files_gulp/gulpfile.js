@@ -2,7 +2,7 @@ var gulp = require("gulp");
 var del = require("del");
 
 gulp.task("clean", function () {
-   del([
+  del([
     // 削除するファイルの指定
     "dir1/abc.txt",
     "dir2/abc.*",
@@ -12,4 +12,4 @@ gulp.task("clean", function () {
   ]);
 });
 
-gulp.task("default",["clean"]);
+gulp.task("default", ["clean"]);

@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
   grunt.initConfig({
     watch: {
       scripts: {
@@ -12,8 +12,8 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks("grunt-contrib-watch");
   
-  grunt.registerTask("filechanged", function (){
-      console.log("file changed");
+  grunt.registerTask("filechanged", function () {
+    console.log("file changed");
   });
   grunt.registerTask("default", ["watch"]);
 };

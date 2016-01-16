@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
   grunt.initConfig({
     copy: {
       main: {
@@ -10,6 +10,6 @@ module.exports = function(grunt) {
     }
   });
   grunt.loadNpmTasks("grunt-contrib-copy");
-    
-  grunt.registerTask("default",  ["copy"]);
+
+  grunt.registerTask("default", ["copy"]);
 };

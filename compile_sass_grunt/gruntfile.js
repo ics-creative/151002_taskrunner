@@ -1,8 +1,8 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
   grunt.initConfig({
     sass: {
       dist: {
-        files:  [{
+        files: [{
           expand: true,
           // scssファイルの配置ディレクトリ
           cwd: "sass",
@@ -16,7 +16,7 @@ module.exports = function(grunt) {
       }
     }
   });
-    
+
   grunt.loadNpmTasks("grunt-contrib-sass");
   grunt.registerTask("default", ["sass"]);
 }

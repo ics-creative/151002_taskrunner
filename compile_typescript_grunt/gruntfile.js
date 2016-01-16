@@ -1,4 +1,4 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
   grunt.initConfig({
     typescript: {
       base: {
@@ -17,5 +17,5 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks("grunt-typescript");
-  grunt.registerTask("default",["typescript"]);
+  grunt.registerTask("default", ["typescript"]);
 };
