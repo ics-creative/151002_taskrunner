@@ -6,7 +6,7 @@ module.exports = function (grunt) {
           {
             src: ["cache.txt"],
             dest: "dist/hello.md"
-          },
+          }
         ]
       }
     }

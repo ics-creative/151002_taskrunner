@@ -2,7 +2,7 @@ var gulp = require("gulp");
 var sass = require("gulp-sass");
 
 gulp.task("default", function () {
-  // scssファイルの配置ディレクトリ及びマッチパターン
+  // scssファイルの配置フォルダー及びマッチパターン
   gulp.src("sass/**/*.scss")
       // scssファイルの変換処理と、エラーが起こった場合のログ書き出し
       .pipe(sass().on("error", sass.logError))

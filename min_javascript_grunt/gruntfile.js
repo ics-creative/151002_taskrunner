@@ -5,11 +5,11 @@ module.exports = function (grunt) {
         files: {
           // 書き出されるファイル名, 圧縮するファイル名
           "dist/hello.js": ["src/hello.js"],
-          "dist/goodby.js": ["src/goodby.js"],
+          "dist/goodby.js": ["src/goodby.js"]
         }
       }
     }
   });
   grunt.loadNpmTasks("grunt-contrib-uglify");
   grunt.registerTask("default", ["uglify"]);
-}
+};

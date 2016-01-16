@@ -6,7 +6,7 @@ module.exports = function (grunt) {
         files: ["js/**/*.js"],
         // ファイルに変更があった場合に実行されるタスク
         tasks: ["filechanged"]
-      },
+      }
     }
   });
 

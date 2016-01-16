@@ -2,9 +2,11 @@ module.exports = function (grunt) {
   grunt.initConfig({
     typescript: {
       base: {
-        // TypeScriptのファイルが配置しているディレクトリ
+        // TypeScriptのファイルが配置しているフォルダー
         src: ["ts/**/*.ts"],
+        // 出力先のフォルダ
         dest: "js/",
+        // オプションの設定
         options: {
           // コメントの削除を行うか？
           removeComments: false,

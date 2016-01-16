@@ -2,7 +2,7 @@ var gulp = require("gulp");
 var ts = require("gulp-typescript");
 
 gulp.task("default", function () {
-  // TypeScriptのファイルが配置しているディレクトリ
+  // TypeScriptのファイルが配置している"
   gulp.src("ts/**/*.ts")
       .pipe(ts({
         // ES3, ES5, ES6から選択
@@ -13,6 +13,6 @@ gulp.task("default", function () {
       }))
       // jsプロパティを参照
       .js
-      // 書き出しディレクトリの指定
+      // 書き出し"の指定
       .pipe(gulp.dest("js"));
 });
