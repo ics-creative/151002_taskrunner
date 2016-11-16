@@ -7,7 +7,7 @@ gulp.task("concat", function () {
   return gulp.src([
         "css/abc.css",
         "css/def.css",
-        "css/ghi.js"])
+        "css/ghi.css"])
       // 結合後のファイル名を指定
       .pipe(concat("style.css"))
       // 出力フォルダを指定
