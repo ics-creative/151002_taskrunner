@@ -1,0 +1,32 @@
+{
+  "name": "151002_taskrunner",
+  "repository": "https://ics-ikeda@github.com/ics-creative/151002_taskrunner.git",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write '*_gulp/gulpfile.js'"
+  },
+  "workspaces": [
+    "compile_sass_grunt",
+    "compile_sass_gulp",
+    "compile_typescript_grunt",
+    "compile_typescript_gulp",
+    "concat_files_grunt",
+    "concat_files_gulp",
+    "copy_files_grunt",
+    "copy_files_gulp",
+    "delete_files_grunt",
+    "delete_files_gulp",
+    "min_images_grunt",
+    "min_images_gulp2",
+    "min_javascript_grunt",
+    "min_javascript_gulp",
+    "move_files_grunt",
+    "move_files_gulp",
+    "watch_files_grunt",
+    "watch_files_gulp"
+  ],
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  }
+}

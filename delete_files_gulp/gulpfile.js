@@ -1,7 +1,7 @@
-var gulp = require("gulp");
-var del = require("del");
+const gulp = require("gulp");
+const del = require("del");
 
-gulp.task("clean", function () {
+gulp.task("clean", () =>
   del([
     // 削除するファイルの指定
     "dir1/abc.txt",
@@ -9,7 +9,7 @@ gulp.task("clean", function () {
     // パス名の前に「!」使用することで否定の意味をもたせます。
     // ここでは削除をしないという意味になります。
     "!dir2/abc.js"
-  ]);
-});
+  ])
+);
 
-gulp.task("default", ["clean"]);
+gulp.task("default", gulp.task("clean"));

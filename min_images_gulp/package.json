@@ -1,15 +1,12 @@
 {
-  "name": "min_images_gulp",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "name": "min_images_gulp2",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp"
   },
-  "author": "Nozomi Nohara <nozomi.nohara@ics-web.jp>",
-  "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-imagemin": "^2.4.0"
+    "gulp": "^4.0.0",
+    "gulp-imagemin": "^5.0.3"
   }
 }

@@ -1,20 +1,19 @@
-var gulp = require("gulp");
-var rename = require("gulp-rename");
-var del = require("del");
+const gulp = require("gulp");
+const rename = require("gulp-rename");
+const del = require("del");
 
 // ファイルの移動
-gulp.task("move", function () {
+gulp.task("move", () =>
   // 対象のファイルを指定
-  return gulp.src("cache.txt")
-      // ファイル名を変更
-      .pipe(rename("hello.md"))
-      // 出力先を指定
-      .pipe(gulp.dest("dist"));
-});
+  gulp
+    .src("cache.txt")
+    // ファイル名を変更
+    .pipe(rename("hello.md"))
+    // 出力先を指定
+    .pipe(gulp.dest("dist"))
+);
 
 // 元のファイルを削除
-gulp.task("clean", function () {
-  del(["cache.txt"]);
-});
+gulp.task("clean", () => del(["cache.txt"]));
 
-gulp.task("default", ["move", "clean"]);
+gulp.task("default", gulp.series("move", "clean"));

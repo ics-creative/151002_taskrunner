@@ -1,13 +1,7 @@
 {
   "name": "compile_typescript_grunt",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Nozomi Nohara <nozomi.nohara@ics-web.jp>",
-  "license": "MIT",
+  "version": "1.0.0",
+  "private": true,
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-typescript": "^0.8.0"

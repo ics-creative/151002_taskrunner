@@ -1,11 +1,11 @@
-var gulp = require("gulp");
+const gulp = require("gulp");
 
-gulp.task("watch", function () {
+gulp.task("watch", () =>
   // 監視するファイルのパス
-  gulp.watch("js/**/*.js", function (event) {
+  gulp.watch("js/**/*.js", function(event) {
     // ファイルの変更後実行したい処理
     console.log("file changed");
-  });
-});
+  })
+);
 
-gulp.task("default", ["watch"]);
+gulp.task("default", gulp.task("watch"));
