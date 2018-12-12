@@ -15,6 +15,6 @@ gulp.task("default", () =>
       })
     )
     // jsプロパティを参照
-    .js// 書き出し"の指定
+    .js // 書き出し"の指定
     .pipe(gulp.dest("js"))
 );
